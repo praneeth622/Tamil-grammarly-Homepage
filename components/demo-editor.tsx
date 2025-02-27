@@ -7,7 +7,7 @@ import { AlertCircle, CheckCircle2, MessageSquare } from "lucide-react";
 
 export function DemoEditor() {
   const [text, setText] = useState(
-    "Their is a mistake in this sentense. The meeting will be held on tomorrow. We should of discussed this earlier."
+    "Vannakam! Eppadi irukkurringa? Ungal ilakkanathil ungalukku udhavi seiya naangal inge irukkirom."
   );
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [showSuggestions, setShowSuggestions] = useState(false);
