@@ -7,7 +7,7 @@ import { Toaster } from '@/components/ui/toaster';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Grammarly Clone - Write with Confidence',
+  title: 'Tamil Grammar By Random Walk - Write with Confidence',
   description: 'Enhance your writing with our AI-powered writing assistant',
 };
 

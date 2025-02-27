@@ -9,7 +9,7 @@ export function Footer() {
           <div className="col-span-2">
             <Link href="/" className="flex items-center mb-6">
               <span className="text-2xl font-bold text-primary mr-2">G</span>
-              <span className="text-xl font-semibold">Grammarly</span>
+              <span className="text-xl font-semibold">Tamil Grammar By Random Walk</span>
             </Link>
             <p className="text-gray-600 mb-6 max-w-md">
               Our AI-powered writing assistant helps you write with confidence across all your applications.
@@ -130,7 +130,7 @@ export function Footer() {
         <div className="border-t pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 text-sm mb-4 md:mb-0">
-              © {new Date().getFullYear()} Grammarly Clone. All rights reserved.
+              © {new Date().getFullYear()} Tamil Grammar By Random Walk. All rights reserved.
             </p>
             <div className="flex flex-wrap justify-center space-x-4 text-sm">
               <Link href="/terms" className="text-gray-500 hover:text-primary transition-colors">

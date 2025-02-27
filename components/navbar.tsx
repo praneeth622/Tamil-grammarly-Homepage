@@ -55,7 +55,7 @@ export function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center" onClick={closeDropdowns}>
               <span className="text-2xl font-bold text-primary mr-2">G</span>
-              <span className="text-xl font-semibold">Grammarly</span>
+              <span className="text-xl font-semibold">Tamil Grammarly By Random Walk </span>
             </Link>
             
             <nav className="hidden md:flex ml-10 space-x-1">
@@ -147,11 +147,10 @@ export function Navbar() {
             </nav>
           </div>
           
-          <div className="hidden md:flex items-center space-x-4">
-            <Link href="/login" className="text-sm font-medium hover:text-primary" onClick={closeDropdowns}>
-              Log in
-            </Link>
-            <Button className="bg-primary hover:bg-primary/90 text-black">Get Started</Button>
+          <div className="hidden md:flex items-center">
+            <Button className="bg-primary hover:bg-primary/90 text-black">
+              Try Now
+            </Button>
           </div>
           
           <button
@@ -233,12 +232,12 @@ export function Navbar() {
               </Link>
             </div>
             
-            <div className="pt-2 space-y-3">
-              <Link href="/login" className="block py-2 font-medium" onClick={() => setIsMobileMenuOpen(false)}>
-                Log in
-              </Link>
-              <Button className="w-full bg-primary hover:bg-primary/90 text-black" onClick={() => setIsMobileMenuOpen(false)}>
-                Get Started
+            <div className="pt-2">
+              <Button 
+                className="w-full bg-primary hover:bg-primary/90 text-black" 
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Try Now
               </Button>
             </div>
           </div>
